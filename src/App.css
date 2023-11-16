@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.head{
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 30px;
+  -webkit-text-stroke:2.3px #48dbfb;
+  color: transparent;
+}
+.input{
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding:40px 35px;
+  position: relative;
+}
+.input input{
+  width: 400px;
+  font-size: 1rem;
+  padding: 10px 80px;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  border: none;
+}
+.input input::placeholder{
+  font-weight: 600;
+}
+.icon{
+  position: absolute;
+  left: 420px;
+  top: 50px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #48dbfb;
+}
+.list{
+  margin: 20px 40px;
+}
+.list li{
+  list-style-type: upper-roman;
+  position: relative;
+  border-bottom: 1px solid #00d2d3;
+  padding-bottom: 5px;
+  padding-top: 9px;
+ }
+ .list li p{
+  padding-right: 50px;
+ }
+ .delete{
+     position: absolute;
+     right: 0;
+     top: 10px;
+     cursor: pointer;
+     color: #48dbfb;
+ }
+ #edit{
+  position: absolute;
+  right: 20px;
+  bottom: 12px;
+  color: #55efc4;
+  cursor: pointer;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rem{
+  padding: 15px 30px;
+  border-radius: 20px ;
+  border: none;
+  background-color: #55efc4;
+  color: #fff;
+}
